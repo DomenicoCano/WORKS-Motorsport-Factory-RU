@@ -83,10 +83,17 @@ SHA-256 для `WORKS_RU_Installer.exe` (релиз `v1.0.0`):
 |---|---|
 | [src/works_ru_installer.py](src/works_ru_installer.py) | Исходный код установщика (GUI на tkinter, тихий режим Steam, патчер ASAR/EXE) |
 | [src/data/ru.json](src/data/ru.json) | Полный словарь перевода (7 608 ключей) |
+| [src/data/LICENSE](src/data/LICENSE) | Лицензия CC0 1.0 на словарь перевода |
 | [src/build.bat](src/build.bat) | Скрипт сборки `WORKS_RU_Installer.exe` через PyInstaller |
 | [docs/](docs/) | Скриншоты переведённой игры |
+| [LICENSE](LICENSE) | Лицензия MIT на код установщика |
 
 Собранный `WORKS_RU_Installer.exe` не хранится в дереве репозитория и приложен только к [Releases](https://github.com/DomenicoCano/WORKS-Motorsport-Factory-RU/releases).
+
+## Лицензия
+
+- Код установщика ([src/works_ru_installer.py](src/works_ru_installer.py), [src/build.bat](src/build.bat)) распространяется под лицензией [MIT](LICENSE).
+- Словарь перевода ([src/data/ru.json](src/data/ru.json)) передан в общественное достояние по лицензии [CC0 1.0](src/data/LICENSE).
 
 ## Важно
 
